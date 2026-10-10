@@ -1,0 +1,22 @@
+:root { --bg: #eef2e6; --surface: #ffffff; --ink: #313d36; --muted: #6b7865; --line: #d3dccb; --accent: #f2a93b; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: "Gowun Dodum", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif; line-height: 1.7;
+}
+main { max-width: 720px; margin: 0 auto; padding: 40px 18px 56px; }
+header.top { display: flex; align-items: center; gap: 16px; margin-bottom: 28px; }
+header.top img { width: 76px; height: 76px; border-radius: 18px; box-shadow: 0 3px 0 var(--line); }
+h1 { font-family: "Gaegu", "Gowun Dodum", sans-serif; font-size: 44px; line-height: 1; margin: 0; }
+.tagline { margin: 6px 0 0; color: var(--muted); }
+section { background: var(--surface); border-radius: 22px; padding: 22px 22px 18px; margin: 16px 0; box-shadow: 0 2px 0 var(--line); }
+h2 { font-size: 20px; margin: 0 0 10px; }
+h3 { font-size: 16px; margin: 18px 0 4px; }
+p, li { font-size: 15.5px; }
+a { color: #b66a10; }
+.btn { display: inline-block; margin-top: 6px; padding: 10px 18px; border-radius: 14px; background: var(--accent); color: #2e2412; font-weight: 700; text-decoration: none; }
+table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.wrap { overflow-x: auto; }
+footer { color: var(--muted); font-size: 13px; padding: 8px 4px; }
+footer p { margin: 2px 0; font-size: 13px; }
